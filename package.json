@@ -1,0 +1,26 @@
+{
+  "name": "react-express-app",
+  "version": "1.0.0",
+  "description": "Pluralsight tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://michaelbowlin@bitbucket.org/michaelbowlin/react-express-app.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Express",
+    "Mongoose",
+    "Mongo"
+  ],
+  "author": "Mike Bowlin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/michaelbowlin/react-express-app#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}

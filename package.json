@@ -20,7 +20,10 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/michaelbowlin/react-express-app#readme",
   "dependencies": {
+    "browser-sync": "^2.11.1",
     "ejs": "^2.4.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29"
   }
 }

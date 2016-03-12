@@ -31,8 +31,8 @@ gulp.task('bundle', function () {
         .pipe(gulp.dest('./.tmp'));
 });
 
-// Dependent upon our live-server task
-gulp.task('serve', ['live-server'], function () {
+// Dependent upon our live-server and bundle task
+gulp.task('serve', ['bundle', 'live-server'], function () {
     browserSync.init(null, { // null means server already going
         proxy: "http://localhost:7777",
         port: 9001

@@ -1,5 +1,6 @@
 // Browserify is what's wiring this dependency
 var React = require('react/addons');
+var GroceryItem = require('./GroceryItem.jsx');
 
 module.exports = React.createClass({
     // all classes must have render with a method
@@ -12,7 +13,7 @@ module.exports = React.createClass({
                     {
                         this.props.items.map(function(item, index){
                             return (
-                                <div>{item.name}</div>
+                                <GroceryItem item={item} key={"item"+index} />
                             )
                         })
                     }

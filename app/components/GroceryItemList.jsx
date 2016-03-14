@@ -1,6 +1,7 @@
 // Browserify is what's wiring this dependency
 var React = require('react/addons');
 var GroceryItem = require('./GroceryItem.jsx');
+var GroceryListAddItem = require('./GroceryListAddItem.jsx');
 
 module.exports = React.createClass({
     // all classes must have render with a method
@@ -18,6 +19,7 @@ module.exports = React.createClass({
                         })
                     }
                 </div>
+                <GroceryListAddItem />
             </div>
         )
     }

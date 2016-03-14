@@ -17,7 +17,7 @@ gulp.task('live-server', function () {
 // Browerify grabs app/main.jsx and any files that it requires
 // turns all that info from jsx to JS (using the reactify transform)
 // Bundle wraps up the transformations and tells browserify we're ready
-gulp.task('bundle', function () {
+gulp.task('bundle', ['copy'], function () {
     return browserify({
         //starting point
         entries: 'app/main.jsx',
@@ -29,6 +29,11 @@ gulp.task('bundle', function () {
         .pipe(source('app.js'))
         // send this new stuff to a temp dir
         .pipe(gulp.dest('./.tmp'));
+});
+
+gulp.task('copy', function () {
+    gulp.src(['app/*.css'])
+    .pipe(gulp.dest('./.tmp'));
 });
 
 // Dependent upon our live-server and bundle task

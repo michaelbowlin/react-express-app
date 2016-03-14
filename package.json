@@ -24,6 +24,7 @@
     "browserify": "^13.0.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "guid": "0.0.12",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.29",
     "react": "^0.14.7",

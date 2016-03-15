@@ -29,7 +29,6 @@ function GroceryItemStore() {
     }
 
     function deleteGroceryItem(item) {
-        debugger;
         // ES5 De-Sugar
         var index;
         items.filter(function (_item, _index) {
@@ -39,6 +38,14 @@ function GroceryItemStore() {
         });
 
         items.splice(index, 1);
+        triggerListeners();
+    }
+
+    function setGroceryItemBought(item, isBought) {
+        // Filter --> return the first element where the name of the item is the name of the item being passed
+        var _item = items.filter(function(a){ return a.name == item.name})[0];
+        // change the item purchased to the what is being passed
+        item.purchased = isBought || false;
         triggerListeners();
     }
 
@@ -66,6 +73,12 @@ function GroceryItemStore() {
                     break;
                 case  'delete':
                     deleteGroceryItem(event.payload);
+                    break;
+                case 'buy':
+                    setGroceryItemBought(event.payload, true);
+                    break;
+                case 'unbuy':
+                    setGroceryItemBought(event.payload, false);
                     break;
             }
 

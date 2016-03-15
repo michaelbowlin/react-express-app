@@ -2,8 +2,22 @@ var dispatcher = require('./../dispatcher.js');
 
 // TODO: Take this class and make it into ES6
 function GroceryItemStore() {
-    var items = [];
+
+    //var items = [];
     var listeners = [];
+
+    var items = [{
+        name: "Apple"
+    },{
+        name: "Oranges"
+    },{
+        name: "Bell Peppers",
+        purchased: true
+    },{
+        name: "Green Beans"
+    },{
+        name: "Bananas"
+    }];
 
     function getItems() {
         return items;
@@ -20,8 +34,8 @@ function GroceryItemStore() {
 
     // function to trigger all the listeners
     function triggerListeners() {
-        changeListeners.forEach(function(listener) {
-            listener(groceryItems);
+        listeners.forEach(function(listener) {
+            listener(items);
         })
     }
 
@@ -42,7 +56,7 @@ function GroceryItemStore() {
 
     // Return and API of public function
     return {
-        // these are the only two items that are exposed to a public interface
+        // these are the only two items that are exposed to a PUBLIC interface
         getItems: getItems,
         onChange: onChange
     }

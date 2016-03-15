@@ -8,14 +8,14 @@ function GroceryItemStore() {
 
     var items = [{
         name: "Apple"
-    },{
+    }, {
         name: "Oranges"
-    },{
+    }, {
         name: "Bell Peppers",
         purchased: true
-    },{
+    }, {
         name: "Green Beans"
-    },{
+    }, {
         name: "Bananas"
     }];
 
@@ -28,29 +28,47 @@ function GroceryItemStore() {
         triggerListeners();
     }
 
+    function deleteGroceryItem(item) {
+        debugger;
+        // ES5 De-Sugar
+        var index;
+        items.filter(function (_item, _index) {
+            if (_item.name == item.name) {
+                index = _index;
+            }
+        });
+
+        items.splice(index, 1);
+        triggerListeners();
+    }
+
     function onChange(listener) {
         listeners.push(listener);
     }
 
     // function to trigger all the listeners
     function triggerListeners() {
-        listeners.forEach(function(listener) {
+        listeners.forEach(function (listener) {
             listener(items);
         })
     }
 
     // called always if dispatcher registers anything
-    dispatcher.register(function(event){
+    dispatcher.register(function (event) {
         // only interested in types with grocery-item and the beginning so we will create a switch
         var split = event.type.split(':');
-        if (split[0]==='grocery-item') {
+        if (split[0] === 'grocery-item') {
             // if before the : is grocery-item go into this switch statement
             switch (split[1]) {
                 // if the second part is 'add' we'll pass it the payload
                 case  'add':
                     addGroceryItem(event.payload);
                     break;
+                case  'delete':
+                    deleteGroceryItem(event.payload);
+                    break;
             }
+
         }
     })
 

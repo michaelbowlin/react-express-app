@@ -17,15 +17,6 @@ function GroceryItemStore() {
         relatedPatterns: "Gray Drake, Callibaetis, Black Drake, Baetis, Isonychia bicolor, BWO, Hendrickson",
         image: "bwo-dry-fly.jpg"
 
-    }, {
-        name: "Oranges"
-    }, {
-        name: "Bell Peppers",
-        purchased: true
-    }, {
-        name: "Green Beans"
-    }, {
-        name: "Bananas"
     }];
 
     function getItems() {

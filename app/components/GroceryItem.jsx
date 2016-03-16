@@ -31,8 +31,7 @@ module.exports = React.createClass({
                     </ul>
                 </div>
                 <form className="three columns" onSubmit={this.togglePurchased}>
-                    <button
-                        className={this.props.item.purchased ? "" : "button-primary"}>{this.props.item.purchased ? "Unbuy" : "Buy"}</button>
+                    <button className={this.props.item.purchased ? "" : "button-primary"}>{this.props.item.purchased ? "Unbuy" : "Buy"}</button>
                 </form>
                 <form className="three columns" onSubmit={this.delete}>
                     <button>&times;</button>

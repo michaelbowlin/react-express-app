@@ -9,25 +9,32 @@ module.exports = React.createClass({
     },
     handleInputName: function (e) {
         // NEVER: change the state directly.. use setState instead
-        this.setState({input: e.target.value});
+        this.setState({inputName: e.target.value});
+    },
+    handleInputType: function (e) {
+        this.setState({inputType: e.target.value});
     },
     addItem: function (e) {
         e.preventDefault();
         // console.log("Adding Item! ", this.state.input);
         action.add({
-            name:this.state.input
+            name:this.state.inputName,
+            type:this.state.inputType
         });
 
         //reset the input to empty
         this.setState({
-            input:''
+            inputName:'',
+            inputType:''
         });
     },
     render: function () {
         return (
             <div className='grocery-addItem'>
                 <form onSubmit={this.addItem}>
-                    <input value={this.state.input} onChange={this.handleInputName} type="text" />
+                    <input value={this.state.inputName} onChange={this.handleInputName} type="text" placeholder="Name" />
+                    <br/>
+                    <input value={this.state.inputType} onChange={this.handleInputType} type="text" placeholder="Type"/>
                     <br/>
                     <button> Add Item yo!</button>
                 </form>

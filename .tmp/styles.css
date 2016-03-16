@@ -1,0 +1,22 @@
+body {
+    padding-top: 3em;
+}
+.purchased-false {
+    height: 40px;
+    background: darkred;
+}
+.purchased-true {
+    height: 40px;
+    background: darkgreen;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color: slateblue;
+}
+h1 {
+    text-decoration: underline;
+}
+.grocery-addItem {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}

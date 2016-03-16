@@ -5,19 +5,19 @@ function GroceryItemStore() {
 
     //var items = [];
     var listeners = [];
-    //
-    //var items = [{
-    //    name: "Apple"
-    //}, {
-    //    name: "Oranges"
-    //}, {
-    //    name: "Bell Peppers",
-    //    purchased: true
-    //}, {
-    //    name: "Green Beans"
-    //}, {
-    //    name: "Bananas"
-    //}];
+
+    var items = [{
+        name: "Apple"
+    }, {
+        name: "Oranges"
+    }, {
+        name: "Bell Peppers",
+        purchased: true
+    }, {
+        name: "Green Beans"
+    }, {
+        name: "Bananas"
+    }];
 
     function getItems() {
         return items;

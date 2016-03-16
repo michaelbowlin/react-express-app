@@ -7,7 +7,16 @@ function GroceryItemStore() {
     var listeners = [];
 
     var items = [{
-        name: "Apple"
+        name: "BWO",
+        type: "Mayfly",
+        category: "Dry",
+        sizes: "8, 10, 12, 14, 16, 18, 20, 22",
+        overview: "Can be used to imitate a plethora of mayfly hatches, including baetis, callibaetis, and the drakes.  Invented in 1922 by Leonard Halladay and named after his friend Charles Adams.",
+        imitates: "Gray Drake, Callibaetis, Black Drake, Baetis, Isonychia bicolor, BWO, Hendrickson",
+        species: "Rainbow Trout, Brook Trout, Brown Trout",
+        relatedPatterns: "Gray Drake, Callibaetis, Black Drake, Baetis, Isonychia bicolor, BWO, Hendrickson",
+        image: "bwo-dry-fly.jpg"
+
     }, {
         name: "Oranges"
     }, {

@@ -19,6 +19,16 @@ module.exports = React.createClass({
             <div className="grocery-item row">
                 <div className="six columns">
                     <h4 className={this.props.item.purchased ? "strikethrough" : "nostyle"}>{this.props.item.name}</h4>
+                    <ul>
+                        <li>{this.props.item.type}</li>
+                        <li>{this.props.item.category}</li>
+                        <li>{this.props.item.sizes}</li>
+                        <li>{this.props.item.overview}</li>
+                        <li>{this.props.item.imitates}</li>
+                        <li>{this.props.item.species}</li>
+                        <li>{this.props.item.relatedPatterns}</li>
+                        <li>{this.props.item.image}</li>
+                    </ul>
                 </div>
                 <form className="three columns" onSubmit={this.togglePurchased}>
                     <button

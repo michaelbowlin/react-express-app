@@ -1,0 +1,60 @@
+// Main Menu Panel
+// --------------------
+
+.main-menu-panel {
+
+  padding-top: 8px;
+
+  ul {
+
+    li {
+      width: 20%;
+      float: left;
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;
+
+      &:first-child {
+        border-bottom: $rsi-violet solid 2px;
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          @extend .z8;
+          bottom: -7px;
+          left: 50%;
+          margin-left: -5px;
+          border-left: transparent 6px solid;
+          border-right: transparent 6px solid;
+          border-top: #5C3E8F 7px solid;
+
+        }
+      }
+
+      &:nth-child(2) {
+        border-bottom: $rsi-blue solid 2px;
+      }
+      &:nth-child(3) {
+        border-bottom: $rsi-pink solid 2px;
+      }
+      &:nth-child(4) {
+        border-bottom: $rsi-orange solid 2px;
+      }
+      &:nth-child(5) {
+        border-bottom: $rsi-green solid 2px;
+      }
+
+      .btn {
+        width: 100%;
+        float: left;
+      }
+    }
+
+  }
+}
+
+.btn {
+  height: 42px;
+  padding-top: 6px;
+}

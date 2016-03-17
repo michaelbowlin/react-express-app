@@ -1,0 +1,439 @@
+// Status Panel
+// --------------------
+
+.status-panel {
+  position: relative;
+  padding: 0px 0 0 5% !important;
+  background-color: #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
+  border-right: solid 1px #e0e0e0;
+  overflow: visible;
+
+  &:before {
+    // left triangle
+    //position: absolute;
+    //content: "";
+    //width: 0;
+    //height: 0;
+    //border-style: solid;
+    //border-width: 0 0 40px 80px;
+    //border-color: transparent transparent #e0e0e0 transparent;
+    //left: 36px;
+    //bottom: 0px;
+  }
+
+  ul.items {
+    font-family: 'Lato';
+    list-style-type: none;
+
+    li {
+      position: relative;
+      display: inline-block;
+      height: 34px;
+      width: 19%;
+      padding: 13px 50px 0px 50px;
+      background-color: #e0e0e0;
+      color: #fff;
+      text-indent: 0;
+      line-height: 12px;
+      transition: all 0.4s ease;
+
+      p {
+        position: absolute;
+        @extend .z8, .z820;
+        top: 0px;
+        width: 140px;
+        margin-left: -9%;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      &.truck-icon-svg {
+
+        background: none !important;
+
+        &:after {
+          display: none !important;
+        }
+
+        img {
+          position: absolute;
+          top: 4px;
+          left: 28px;
+          max-width: 60px;
+        }
+      }
+
+      &:first-child {
+        background-color: #d6d6d6;
+
+        &:before {
+          position: absolute;
+          left: -28%;
+          top: 0px;
+          content: "";
+          width: 28%;
+          height: 44px;
+          background-color: #d6d6d6;
+
+        }
+
+        &:after {
+          position: absolute;
+          top: 3px;
+          left: 93% !important;
+          @extend .z8;
+          background-color: #d6d6d6;
+          border-radius: 0;
+          border-right: 5px solid white;
+          border-top: 5px solid white;
+          height: 29px;
+          width: 29px;
+          /* margin-top: -9px !important; */
+          /* margin-left: 9.1% !important; */
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+        }
+      }
+      &:nth-child(2) {
+        background-color: #bdbdbd;
+
+        &:after {
+          background-color: #bdbdbd;
+        }
+      }
+      &:nth-child(3) {
+        background-color: #9e9e9e;
+
+        &:after {
+          background-color: #9e9e9e;
+        }
+      }
+      &:nth-child(4) {
+        background-color: #757575;
+
+        &:after {
+          background-color: #757575;
+        }
+      }
+
+      &:first-child {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+        //&.completed,
+        &[status="warning"] {
+
+          &:after,
+          &:before {
+            background-color: #ffc107; // $rsi-orange - amber
+          }
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 116px;
+            height: 44px;
+            //left: 0px;
+            bottom: 0px;
+          }
+        }
+
+      }
+
+      //&:last-child {
+      //    border-top-right-radius: 0px;
+      //    border-bottom-right-radius: 0px;
+      //}
+
+      &:last-child:after,
+      &:last-child:before {
+        //display: none;
+      }
+
+      &:after,
+      &:before {
+        content: "";
+        position: absolute;
+        background-color: none;
+      }
+
+      &:after {
+        position: absolute;
+        top: 3px;
+        left: 93% !important;
+        @extend .z8;
+        background-color: #d6d6d6;
+        border-radius: 0;
+        border-right: 5px solid #fff;
+        border-top: 5px solid #fff;
+        height: 29px;
+        width: 29px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+
+      //&.current,
+      &[status="late"] {
+        background-color: #dd2c00;
+
+        &:after,
+        &:before {
+          background-color: #dd2c00;
+        }
+
+      }
+
+      //&.submitted,
+      &[status="submitted"] {
+        background-color: #B6CF03;
+
+        &:after,
+        &:before {
+          background-color: #B6CF03;
+        }
+
+      }
+
+      //&.completed,
+      &[status="warning"] {
+        background-color: #ffc107;
+
+        &:after,
+        &:before {
+          background-color: #ffc107;
+        }
+      }
+
+      &:after,
+      &:before {
+        background-color: #e0e0e0;
+      }
+
+      &.truck-icon {
+        width: 160px !important;
+        margin-left: 10px;
+        position: relative;
+
+        svg {
+          /* border:red solid 10px; */
+          width: 100px !important;
+          height: 40px !important;
+          padding: 0;
+          margin: 0;
+        }
+
+      }
+
+      //&:last-child {
+      //
+      //  //display:none; TODO(mb): svg or implement this
+      //
+      //  &:after {
+      //    display: none;
+      //  }
+      //
+      //  // TRUCK ICON (Pure CSS)
+      //  &:last-child {
+      //    float: left;
+      //    width: 5.3em;
+      //    background: none;
+      //    color: #5c3e8f;
+      //
+      //    /* Truck Icon  */
+      //    i {
+      //      font-size: 2.5em;
+      //      /* Skew Icon */
+      //      -moz-transform: scale(-1, 1) rotate(-4deg) translate(0px, 0px) skew(13deg, 4deg);
+      //      -webkit-transform: scale(-1, 1) rotate(-4deg) translate(0px, 0px) skew(13deg, 4deg);
+      //      -o-transform: scale(-1, 1) rotate(-4deg) translate(0px, 0px) skew(13deg, 4deg);
+      //      -ms-transform: scale(-1, 1) rotate(-4deg) translate(0px, 0px) skew(13deg, 4deg);
+      //      transform: scale(-1, 1) rotate(-4deg) translate(0px, 0px) skew(13deg, 4deg);
+      //
+      //      &.top {
+      //        position: absolute;
+      //        z-index: 900;
+      //        left: 22px;
+      //        top: -15px;
+      //        color: #fff;
+      //      }
+      //      &.bottom {
+      //        position: absolute;
+      //        z-index: 0;
+      //        left: 23px;
+      //        top: -17px;
+      //        color: rgba(0, 0, 0, .09);
+      //      }
+      //
+      //    }
+      //
+      //    /* Truck Icon - Lines */
+      //    div {
+      //      position: absolute;
+      //      z-index: 0;
+      //      left: 65%;
+      //      top: 2px;
+      //      height: 2px;
+      //
+      //      border-radius: 1em;
+      //
+      //      .line1 {
+      //        left: -.96em;
+      //        top: 1.4em;
+      //        width: 24px;
+      //        background-color: #fff;
+      //      }
+      //      .line2 {
+      //        left: .6em;
+      //        top: -.52em;
+      //        width: 20px;
+      //        background-color: #fff;
+      //      }
+      //      .line3 {
+      //        left: .8em;
+      //        top: -.5em;
+      //        width: 12px;
+      //        background-color: #fff;
+      //      }
+      //      .line1-bg {
+      //        left: -.96em;
+      //        top: 1.5em;
+      //        width: 24px;
+      //        background-color: #5c3e8f;
+      //      }
+      //      .line2-bg {
+      //        left: .6em;
+      //        top: -.57em;
+      //        width: 20px;
+      //        background-color: #5c3e8f;
+      //      }
+      //      .line3-bg {
+      //        left: .8em;
+      //        top: -.5em;
+      //        width: 12px;
+      //        background-color: #5c3e8f;
+      //      }
+      //    }
+      //  }
+      //}
+
+    }
+  }
+}
+
+// Chevron/LI adjustments for screensize
+// --------------------
+
+@media (max-width: 1730px) {
+  .status-panel ul.items li p {
+    margin-left: -22%;
+  }
+}
+
+@media (min-width: 2400px) {
+  .status-panel ul.items li:after,
+  .status-panel ul.items li:first-child:after {
+    left: 96% !important;
+  }
+}
+
+@media (min-width: 4500px) {
+  .status-panel ul.items li:after,
+  .status-panel ul.items li:first-child:after {
+    left: 97% !important;
+  }
+}
+
+// Tooltip implementation
+.status-panel {
+
+  ul {
+
+    li {
+
+      span.rsi-tooltip {
+        opacity: 0;
+        position: absolute;
+        top: -999px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: -7px;
+          right: 45%;
+          margin-left: -5px;
+          height: 0px;
+          width: 0px;
+          background: none;
+          border-bottom: 7px solid #323232;
+          border-right: transparent 7px solid;
+          border-left: transparent 7px solid;
+
+        }
+      }
+
+      span {
+
+        span {
+          //display: inline-block;
+          float: left;
+          opacity: 0;
+          padding: 0;
+          margin: 0 0 0 3%;
+          width: 31px;
+          height: 18px;
+          letter-spacing: 1px;
+
+          & strong {
+            float: left;
+            width: 30px;
+            margin-top: 0;
+            color: #e1ff00;
+            font-size: 10px;
+            text-align: left;
+          }
+          &[role="sentDate"],
+          &[role="dueDate"] {
+            float: left;
+            width: 70%;
+          }
+        }
+
+      }
+
+      &:hover {
+
+        & > span span {
+          opacity: 1;
+          transition: opacity .95s ease-in-out;
+        }
+
+        & span.rsi-tooltip {
+          opacity: 1;
+          position: absolute;
+          top: 34px;
+          left: 30px;
+          @extend .z8, .z820;
+          height: auto;
+          width: 150px;
+          padding: 16px 10px;
+          background-color: #323232;
+          // will-change: transform, opacity;
+          color: #fff;
+          text-align: left;
+          box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+          border-radius: 2px 2px 2px 2px;
+          margin-top: -0px;
+          transition: opacity .55s ease-in-out;
+
+        }
+      }
+    }
+
+  }
+}
+
+

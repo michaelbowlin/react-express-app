@@ -1,0 +1,288 @@
+// Client Navigation Panel
+// --------------------
+
+.user-wrap {
+  position: relative;
+  height: 118px;
+  overflow: hidden;
+
+  .profile {
+    height: 100%;
+    width: 84%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+
+  ul.tools {
+    float: left;
+    width: 80px;
+    height: 136px;
+
+    i {
+      font-size: 20px;
+      line-height: 25px;
+      width: 54px;
+      height: 36px;
+      float: left;
+      border-bottom: #f1f1f1 solid 0px;
+      @include transition(.2s ease-in-out);
+
+      &:hover {
+        //text-shadow: 2px 1px #6D18FF;
+        color: #6D18FF;
+      }
+    }
+
+    li {
+      width: 100%;
+
+      a {
+          float: left;
+          display: block;
+          height: 40px;
+          width: 100%;
+          padding: 7px 0 0px 4px;
+          background-color: #fff;
+          color: #999;
+          text-align: center;
+      }
+
+      &last-child {
+        border-bottom: none;
+      }
+
+    }
+
+  }
+  .cnp-icons {
+    float: right;
+    width: 20px;
+    overflow: hidden;
+    width: 16%;
+  }
+}
+
+.user-info {
+  .card {
+    //position: fixed;
+    height: 134px;
+    width: 80%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+
+    .card-content {
+      float: left;
+      padding: 4px 0 0 0;
+      height: 35px;
+      width: 100%;
+      //background: url("/dist/img/material-bg.jpg") 0px -83%;
+      //box-shadow: 0px 0px 60px 60px rgba(255, 255, 255, 0) inset;
+      //background-size: 114%;
+      //border-bottom: 1px solid #999;
+      //box-shadow: 0px 10px 20px rgba(255,255,255,.8) inset;
+    }
+
+    .title-block {
+      position: absolute;
+      @extend .z8;
+      top: -20px;
+      left: -10px;
+      height: 30px;
+      width: 900px;
+      padding: 4px;
+      margin: 4px 10px 10px 7px;
+      font-size: 44px;
+      line-height: 46px;
+      color: #ccc;
+      text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px 1px 1px 1px transparent;
+
+      &.move-title {
+        top: 0px;
+        left: 12px;
+        font-size: 15px !important;
+        line-height: 14px !important;
+        color: #222;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.99);
+        font-weight: bolder !important;
+        font-family: sans-serif;
+
+      }
+    }
+
+    .address-small {
+      position: absolute;
+      @extend .z8;
+      top: 6px;
+      left:8px;
+      height: 16px;
+      width: 900px;
+      padding: 20px 4px 4px 4px;
+      margin: 4px 0 0 24px;
+      font-size: 14px;
+      line-height: 46px;
+      color: #777;
+      text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px 1px 1px 1px transparent;
+      font-weight: 100;
+
+      span {
+        float: left;
+        width: 100%;
+        text-align: left;
+        line-height:20px;
+
+          &.city {
+
+              width: auto;
+
+              &:after {
+
+                  content: ',';
+
+              }
+          }
+
+          &.state,
+          &.zip {
+              width: auto;
+              padding-left:5px;
+
+          }
+      }
+
+      &:before {
+        position:absolute;
+        left:-10px;
+        top:21px;
+        height:60px;
+        width:3px;
+        background-color:#e0e0e0;
+        content:'';
+      }
+
+    }
+
+    .icon-map {
+      position: absolute;
+      top: 0px;
+      left: 87px;
+      font-size: 140px;
+      //color:#ededed;
+      opacity: 0;
+
+      &.move-map {
+        font-size: 36px !important;
+        top: -11px;
+        left: -2px !important;
+        color: rgba(0, 0, 0, 0.08);
+        opacity: 0;
+      }
+    }
+
+    .icon-marker-big {
+      display: none;
+      position: absolute;
+      top: -5px;
+      left: -24px;
+      @extend .z8;
+      font-size: 74px;
+      color: #fff;
+      text-shadow: 2px 1px #ccc;
+
+      .white-block {
+        position: absolute;
+        @extend .z8;
+        top: 15px;
+        left: 28px;
+        height: 20px;
+        width: 20px;
+        background: #fff;
+      }
+
+      &.move-marker {
+        font-size: 18px !important;
+        top: 25px;
+        left: 5px !important;
+        color: #5C3E8F;
+
+      }
+    }
+
+    //.fa-icon-marker-big {
+    //  display: none;
+    //  position: absolute;
+    //  top: -5px;
+    //  left: -8px;
+    //  z-index: 300;
+    //  font-size: 74px;
+    //  color: #fff;
+    //  text-shadow: 2px 1px #ccc;
+    //
+    //  .white-block {
+    //    position: absolute;
+    //    z-index: 350;
+    //    top: 10px;
+    //    left: 10px;
+    //    height: 25px;
+    //    width: 25px;
+    //    background: #fff;
+    //  }
+    //
+    //  &.move-marker {
+    //    font-size: 18px !important;
+    //    top: 25px;
+    //    left: 5px !important;
+    //    color: #5C3E8F;
+    //
+    //  }
+    //}
+
+    //.icon-marker-small {
+    //  display: none;
+    //  position: absolute !important;
+    //  z-index: 200 !important;
+    //  top: 17px !important;
+    //  left: 4px !important;
+    //  z-index: 300 !important;
+    //  font-size: 20px !important;
+    //  color: #5C3E8F !important;
+    //
+    //  &.move-marker {
+    //    font-size: 18px !important;
+    //    top: 25px;
+    //    left: 5px !important;
+    //    color: #5C3E8F;
+    //
+    //  }
+    //}
+
+    .card-image {
+      height: 100px;
+      width: 300px;
+      overflow: hidden;
+
+      img {
+        margin-top: -100px;
+      }
+    }
+  }
+}
+
+// ANIMATIONS
+
+.button {
+  background: #e74c3c;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  /*  -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 1;*/
+}

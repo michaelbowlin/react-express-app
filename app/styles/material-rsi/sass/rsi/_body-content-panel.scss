@@ -1,0 +1,155 @@
+// Body Content Panel
+// --------------------
+
+// Unit Info Panel
+
+h3[role="unit-header"] {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 1.46rem 0 1.168rem 0;
+  color: #939393;
+  border: none;
+}
+
+// Collapsable Header Panel
+.collapsable-header-panel {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.29);
+
+  .add-portal-user {
+    position: absolute;
+    right: 25px;
+    top: 61px;
+  }
+  .users-bg-icon {
+    float: right;
+    padding: 0;
+    margin: 0;
+    font-size: 124px;
+    color: #fff;
+  }
+
+  .chef-thumbfile {
+    z-index: 1 !important;
+  }
+
+  & .btn-floating.btn-large :before {
+    line-height: 48px !important;
+  }
+
+}
+
+// Unit Name
+span.doingBusinessAs h3 {
+  position: relative;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 18px;
+  color: #5c3e8f;
+}
+
+span.doingBusinessAs h3:before {
+  position: absolute;
+  top: 6px;
+  left: 14px;
+  content: '';
+  height: 0px;
+  width: 0px;
+  border-left: solid 6px #da06ff;
+  border-top: transparent 3px solid;
+  border-bottom: transparent 3px solid;
+
+}
+
+// Portal User Profile (page)
+.portal-user-profile {
+
+  //Overriding the overide in _forms.scss
+  [type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked {
+    position: absolute !important;
+    left: -9999 !important;
+    visibility: hidden !important;
+    margin-top: 0 !important;
+  }
+
+  .user-info {
+
+    .btn-floating {
+      //z-index: -1;
+      position: static;
+    }
+
+    .user-name,
+    .user-phone,
+    .user-locked-out {
+      display: block;
+      width: 100%;
+      padding: 2px 0;
+    }
+
+    .user-name {
+      font-size: 18px;
+    }
+
+    .user-phone {
+      font-size: 14px;
+
+      i {
+        font-size: 20px;
+        color: #999;
+      }
+
+    }
+
+    .user-locked-out {
+      padding-bottom: 0px;
+
+      label {
+        padding-bottom: 0px;
+        color: #333 !important;
+      }
+    }
+
+  }
+
+}
+
+// Role Profile (page)
+.role-profile {
+
+  //Overriding the overide in _forms.scss
+  [type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked {
+    position: absolute !important;
+    left: -9999 !important;
+    visibility: hidden !important;
+    margin-top: 0 !important;
+  }
+
+  .role-info {
+
+    .btn-floating {
+      //z-index: -1;
+      position: static;
+    }
+
+    .role-name,
+
+    .role-name {
+      font-size: 18px;
+    }
+  }
+}
+
+// Filter toggle button
+span.filter-toggle i {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  color: #5c3d8f;
+  color: #da06ff;
+  color: #6d18ff;
+  font-size: 24px;
+  cursor: hand;
+}
+

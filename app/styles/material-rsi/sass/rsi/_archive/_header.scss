@@ -1,0 +1,369 @@
+// Main Header
+//
+
+//#rsi-header {
+//
+//  position: fixed;
+//  top: 0;
+//  left: 0;
+//  @extend .z9;
+//  width: 100%;
+//  min-width: 1024px;
+//  background-color: $white;
+//  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.29);
+//  @extend .transition1;
+//
+//  .navbar-header {
+//    width: 100%;
+//  }
+//
+//  .logo {
+//    img {
+//
+//      width: 80%;
+//      padding-top: 10px;
+//
+//    }
+//  }
+//
+//  .logo-wrap {
+//    display: block;
+//    height: 4.74em;
+//    //max-width:              250px;
+//    padding: 10px 0 0 0px;
+//    border-left: solid 8px #5c3e8f; // TODO: Incorp. trim into SCSS
+//    background-color: $brand-primary;
+//    text-align: center;
+//    -webkit-box-shadow: inset 8px 86px 263px 40px rgba(255, 255, 255, 0.23);
+//    -moz-box-shadow: inset 8px 86px 263px 40px rgba(255, 255, 255, 0.23);
+//    box-shadow: inset 8px 86px 263px 40px rgba(255, 255, 255, 0.23);
+//  }
+//
+//  .logo-wrap2 {
+//    display: block;
+//    height: 4.74em;
+//    //max-width:              250px;
+//    padding: 10px 0 0 0px;
+//    //border-left:            solid 8px #5c3e8f; // TODO: Incorp. trim into SCSS
+//    background-color: $white;
+//    text-align: center;
+//    border-bottom: solid 1px rgba(20, 20, 20, 0.4);
+//
+//    img {
+//      width: 80%;
+//      margin-left: -11px;
+//      margin-top: -1px;
+//    }
+//  }
+//
+//  .nav-wrap {
+//    height: 4.74em;
+//    border-right: 1px solid rgba(0, 0, 0, .14);
+//    background-color: $gray-lightest;
+//
+//    ul.first {
+//
+//      float: left;
+//      width: 100%;
+//      margin: 0;
+//      padding: 0;
+//
+//      li {
+//        height: 3.0em;
+//        padding: 4px !important;
+//
+//        &:first-child {
+//          border-bottom: $rsi-violet solid 2px;
+//        }
+//        &:nth-child(2) {
+//          border-bottom: $rsi-blue solid 2px;
+//        }
+//        &:nth-child(3) {
+//          border-bottom: $rsi-pink solid 2px;
+//        }
+//        &:nth-child(4) {
+//          border-bottom: $rsi-orange solid 2px;
+//        }
+//        &:nth-child(5) {
+//          border-bottom: $rsi-green solid 2px;
+//        }
+//
+//        a {
+//          font-size: .9em;
+//          text-decoration: none;
+//
+//          &:hover {
+//            text-decoration: none;
+//          }
+//
+//          .caret {
+//            position: absolute;
+//            bottom: -6px;
+//            left: 50%;
+//            display: block;
+//            margin-left: -3px;
+//            border-top: 4px solid $brand-primary;
+//            border-right: 5px solid transparent;
+//            border-left: 5px solid transparent;
+//          }
+//
+//        }
+//
+//      }
+//
+//    }
+//
+//    ul.second {
+//
+//      li {
+//        &:first-child,
+//        &:nth-child(2),
+//        &:nth-child(3),
+//        &:nth-child(4),
+//        &:nth-child(5) {
+//          border-bottom: none
+//        }
+//      }
+//
+//    }
+//
+//    ul.dropdown-menu {
+//
+//      top: 38px;
+//      @extend .z-900;
+//      background-color: $white;
+//      min-width: 230px;
+//      border-top: none;
+//      opacity: 1;
+//      -webkit-transform-origin: top;
+//      transform-origin: top;
+//      -webkit-animation-fill-mode: forwards;
+//      animation-fill-mode: forwards;
+//      -webkit-transform: scale(1, 0);
+//      display: block;
+//      transition: all 0.2s linear;
+//      -webkit-transition: all 0.2s linear;
+//
+//      h5 {
+//        font-size: .7em;
+//        padding: 12px 0 0 0;
+//        margin: 0 0 0 -13px;
+//      }
+//
+//      li {
+//        overflow: hidden;
+//        height: 0;
+//        -webkit-transition: height 0.2s ease-in;
+//        -moz-transition: height 0.2s ease-in;
+//        -o-transition: height 0.2s ease-in;
+//        transition: height 0.2s ease-in;
+//      }
+//      a {
+//        color: $brand-primary;
+//
+//        &:hover {
+//          background-color: $gray-lightest;
+//        }
+//      }
+//
+//    }
+//
+//    /* Nav Dropdown Animation(s) */
+//    .open > .dropdown-menu {
+//      -webkit-transform: scale(1, 1);
+//      transform: scale(1, 1);
+//      opacity: 1;
+//
+//      li {
+//        height: 36px !important;
+//        -webkit-transform: scale(1, 1);
+//        transform: scale(1, 1);
+//        opacity: 1;
+//
+//        &.divider {
+//          height: 1px !important;
+//          padding: 0 !important;
+//          margin: 0 !important;
+//          background-color: $gray-lightest;
+//        }
+//      }
+//    }
+//    .open > .dropdown:hover ul li {
+//
+//    }
+//  }
+//
+//  /* Custom container */
+//  .container-fixed {
+//    margin: 10% auto;
+//    max-width: 480px;
+//  }
+//
+//  .navbar-nav {
+//    float: right;
+//  }
+//
+//  .img_cover {
+//    max-width: 150px;
+//  }
+//  /* end Nav Dropdown Animation(s) */
+//
+//  .user-wrap {
+//    position: relative;
+//    height: 6.5em;
+//    overflow: hidden;
+//
+//    .profile {
+//      height: 76px;
+//      width: 80%;
+//      float: left;
+//      overflow: hidden;
+//    }
+//
+//    ul.tools {
+//
+//      width: 100%;
+//
+//      li {
+//
+//        float: left;
+//        width: 100%;
+//        border-bottom: #f1f1f1 solid 1px;
+//
+//        a {
+//          display: block;
+//          padding: .28em 0;
+//          background-color: $gray-darker;
+//          color: $white;
+//          text-align: center;
+//
+//        }
+//
+//        &:last-child {
+//          border-bottom: none;
+//        }
+//
+//      }
+//
+//    }
+//
+//    .user-img {
+//      position: absolute;
+//      top: -30px;
+//      left: 0;
+//      @extend .z9, .z920;
+//      overflow: hidden;
+//      border-bottom: #ccc solid 1px;
+//      height: 30px;
+//      width: 205px;
+//      background: url("../images/payroll/img/material-bg.jpg") 0 -44px;
+//      background-size: 100%;
+//      box-shadow: 0px 0px 7px 20px rgba(255, 255, 255, 0.7) inset;
+//      @extend .transition1;
+//    }
+//
+//    .user-info {
+//      position: absolute;
+//      top: 24px;
+//      left: 0;
+//      @extend .z9, .z940;
+//      height: 80px;
+//      width: 205px;
+//      padding: 24px 10px 10px 10px;
+//      @extend .transition1;
+//
+//      .header {
+//
+//        h2 {
+//          font-size: 12px;
+//          font-weight: 900;
+//          @extend .transition1;
+//
+//        }
+//
+//      }
+//      .name {
+//        position: absolute;
+//        top: -24px;
+//        left: 0px;
+//        @extend .z9, .z920;
+//        background-color: none;
+//        height: 30px;
+//        width: 203px;
+//        padding: 8px 10px 10px 19px;
+//        @extend .transition1;
+//
+//      }
+//      .address {
+//        position: absolute;
+//        top: 4px;
+//        left: 0;
+//        @extend .z9, .z940;
+//        height: 80px;
+//        width: 205px;
+//        padding: 5px 10px 10px 19px;
+//        @extend .transition1;
+//
+//      }
+//
+//      p {
+//        font-size: 10px;
+//        line-height: 8px;
+//      }
+//    }
+//  }
+//
+//  .header-bottom {
+//    height: 1.6em;
+//  }
+//
+//}
+
+//---------------------- DON'T TRASH
+//---------------------- This is the user area hover animation
+/*
+#rsi-header {
+    &:hover {
+
+        .user-wrap .user-img {
+
+            position: absolute;
+            top: 0px;
+            left: 0;
+            z-index: 200;
+            overflow: hidden;
+            border-bottom: #ccc solid 1px;
+            height: 30px;
+            width: 217px;
+            background: url("../images/payroll/img/material-bg.jpg") 0 -35px;
+            background-size: 100%;
+            box-shadow: 0px 0px 7px 20px rgba(255, 255, 255, 0.7) inset;
+        }
+        .user-wrap .user-info {
+            position: absolute;
+            top: 24px;
+            left: 0;
+            z-index: 300;
+            height: 80px;
+            width: 205px;
+            padding: 24px 10px 10px 10px; }
+
+        .user-wrap .user-info .header h2 {
+            font-size: 18px;
+            font-weight: 900;
+        }
+        .user-wrap .user-info .name {
+            top: 9px;
+            left: 0px;
+            padding: 9px 10px 10px 15px;
+        }
+        .user-wrap .user-info .address {
+            top: 84px;
+        }
+
+
+
+
+    }
+}
+*/

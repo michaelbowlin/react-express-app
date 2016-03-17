@@ -13,6 +13,17 @@ var babel = require('gulp-babel');
 var plumber = require('gulp-plumber');
 var es6Path = 'app/es6/*.js';
 var compilePath = 'dist/compiled-es6';
+// From Portal1.0
+var jshint = require('gulp-jshint');
+var sass = require('gulp-ruby-sass');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var postcss = require('gulp-postcss');
+var cssnano = require('gulp-cssnano');
+var livereload = require('gulp-livereload');
+var connect = require('gulp-connect');
+var autoprefixer = require('autoprefixer');
 
 gulp.task('live-server', function () {
     var server = new LiveServer('server/main.js');
@@ -71,5 +82,3 @@ gulp.task('serve', ['bundle', 'live-server','traceur', 'babel', 'watch'], functi
         port: 9001
     })
 });
-
-//gulp.task('default', ['traceur', 'babel', 'watch']);

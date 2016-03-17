@@ -1,0 +1,16 @@
+//
+// Top Panel General
+// --------------------------------------------------
+
+.top-panel-head {
+  position:relative;
+  @extend .z8;
+  float:left;
+  width: 100%;
+  min-width: 1366px !important;
+  background-color:#fff;
+}
+
+.body-header {
+    padding:15px 0 0 0;
+}

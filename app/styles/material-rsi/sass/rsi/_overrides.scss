@@ -1,0 +1,22 @@
+// Material Overrides
+// ---------------------------
+
+/* Remove default checkbox  - _forms.scss */
+//[type="checkbox"]:not(:checked),
+//[type="checkbox"]:checked {
+//  position: static !important;
+//  left: 0 !important;
+//  visibility: visible !important;
+//}
+
+
+.emp-workspace-viewChooser {
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: static !important;
+  left: 0 !important;
+  visibility: visible !important;
+}
+
+}

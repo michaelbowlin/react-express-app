@@ -1,0 +1,128 @@
+#left-navigation-panel {
+  position: absolute !important;
+  width: 60px !important;
+  display: block !important;
+  background-color: $rsi-gray;
+
+  .left-nav-wrap {
+    position: absolute !important;
+    height: 100%;
+    width: 70px;
+    background-color: #9E9E9D;
+    overflow: hidden !important;
+    border-left: 4px solid #5C3E8F !important;
+    @extend .transition1;
+
+    &.visible {
+      width: 242px !important;
+    }
+
+    &:hover {
+      width: 242px;
+      -webkit-transition-delay: .5s !important; /* Safari */
+      transition-delay: .5s !important;
+    }
+
+    ul {
+      margin: 0;
+      padding: 9px 0 0 0;
+
+      li {
+        list-style-type: none;
+        text-align: center;
+
+        a {
+
+          float: left;
+          width: 272px;
+          padding: 6px 0 6px 13px;
+          margin: 0;
+          border: shade(#a5a5a5, 66%) solid 1px;
+          border-left: none;
+          border-right: none;
+          text-align: left;
+
+          &:last-child {
+            border-bottom: none;
+
+          }
+
+          > span {
+            opacity: 1;
+            color: #fff;
+
+            &:hover {
+
+            }
+          }
+
+          > span a {
+            opacity: 1;
+            color: $rsi-violet;
+            transition: opacity .3s ease-in-out;
+
+          }
+
+          i {
+
+            height: 45px;
+            width: 39px;
+            padding: 11px 0 0 0;
+            margin: 0 4px 0 0;
+            text-shadow: 1px 1px #666;
+            text-align: center;
+            color: $rsi-white;
+            font-size: 22px;
+
+            &:last-child {
+              display: none;
+              color: #fff;
+              font-size: 14px;
+              font-weight: 100;
+            }
+
+            &:hover {
+              text-shadow: 1px 1px #6D18FF;
+            }
+          }
+
+          span {
+            padding: 0 0 0 18px;
+            color: #fff;
+            font-weight: 100 !important;
+          }
+
+          &:hover > span {
+            //position: absolute;
+            //z-index: 9999;
+            //left: 92px;
+            //padding: 10px;
+            //width:151px;
+            //background: $rsi-violet;
+            //color: #fff;
+            //box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+            //opacity: 1;
+
+            &:before {
+              opacity: 1;
+              content: ' ';
+              position: absolute;
+              left: -20px;
+              top: 0;
+              width: 0;
+              height: 0;
+              border-left: 10px 10px;
+              border-style: solid;
+              border-width: 21px 20px 21px 0;
+              border-color: transparent $rsi-violet transparent transparent;
+
+            }
+
+          }
+
+        }
+      }
+
+    }
+  }
+}

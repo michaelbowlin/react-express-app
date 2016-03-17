@@ -1,0 +1,24 @@
+// Dialog Panel
+// --------------------
+
+nav.dialog {
+  background: url(/dist/img/rsi-diamond-four-solid-violet.png) 99% 10px no-repeat #5c3e8f !important;
+  background-size: 180px !important;
+  overflow-x:hidden;
+
+}
+
+.unit-unitSelectionDialog-unit .top {
+
+    float:left;
+    width: 100%;
+    padding: 4px;
+    color: $gray-darker;
+
+    &:hover {
+        background-color: $rsi-violet;
+        color: #fff;
+    }
+}
+
+

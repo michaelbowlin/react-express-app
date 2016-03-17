@@ -1,0 +1,23 @@
+// Logo Panel
+// --------------------
+
+.logo-panel {
+
+  overflow: hidden;
+  height: 79px;
+  background-color: #fff;
+  border-bottom: 0px solid #ccc;
+
+  a {
+    float:    left;
+    height:   66px;
+  }
+
+  img {
+      width: 92% !important;
+      padding: 3px 0 0 19%;
+
+  }
+
+}
+

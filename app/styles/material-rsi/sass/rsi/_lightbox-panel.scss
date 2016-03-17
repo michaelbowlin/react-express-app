@@ -1,0 +1,32 @@
+// Lightbox Panel
+// --------------------
+
+.lightbox-panel {
+  position:         fixed;
+  left:             -0px !important;
+  top:              -2000px;
+  z-index:          9980;
+  height:           100%;
+  width:            100%;
+  visibility:       hidden;
+  @include          transition(.5s ease-in-out);
+
+  &.shade-darkest {
+    background-color:   rgba(0, 0, 0, .8);
+  }
+
+  &.shade-darker {
+    background-color:   rgba(0, 0, 0, .7);
+  }
+
+  &.shade-dark {
+    background-color:   rgba(0, 0, 0, .6);
+  }
+
+  &.shade-none {
+    background-color:   rgba(0, 0, 0, 0);
+  }
+
+
+}
+

@@ -1,0 +1,90 @@
+// Dashbar Panel
+// --------------------
+
+.dashbar-panel {
+  border-top: solid 0px rgba(0, 0, 0, 0.2);
+  height: 38px;
+  color: #333;
+
+  .col {
+    padding: 0;
+    margin: 0;
+  }
+
+  span {
+
+    &.welcome-msg {
+
+      position: relative;
+      float: left;
+      height: 38px;
+      padding: 0 0 0 18px !important;
+      margin: 0;
+      margin-top: -10px !important;
+      @extend .color-grey;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      > i {
+        @extend .color-grey;
+        font-size: 12px;
+      }
+
+      i {
+        position: absolute;
+        z-index: -1;
+        left: 7px;
+        top: 0px;
+        font-size: 9px;
+      }
+
+    }
+  }
+
+  ul {
+    float: right;
+    margin: 3px -23px 0 0;
+    padding: 0;
+
+    li {
+      margin: 4px 26px 0 0;
+      padding: 2px 6px 0 0;
+      line-height: 13px !important;
+      border-left: #ccc solid 0px;
+
+      &:hover {
+        background: none;
+      }
+
+      a {
+        padding: 0;
+        margin: 0;
+      }
+
+      span {
+        float: left;
+        padding: 6px 6px 0 6px !important;
+        color: #b3b3b3;
+        font-size: 12px;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &.circle {
+          display: inline-block;
+          width: 20px;
+          height: 0;
+          padding: 3px 0 16px 0 !important;
+          margin: 1px 1px 0 0;
+          background: rgba(0, 0, 0, 0.0);
+          font-size: 10px;
+          color: #888;
+          text-align: center;
+          border: 1px solid #6D18FF;
+        }
+      }
+    }
+
+  }
+}
+

@@ -1,0 +1,143 @@
+.chef-flap {
+  position: relative;
+  height: 100%;
+
+  &[chef-flap-position="left"] {
+    right: 0;
+
+    &[chef-flap-state="closed"]:before {
+      content: '\f053';
+    }
+    &:hover:before {
+      color: #6d18ff;
+      //transform: scale(1.6);
+    }
+
+    &:before {
+      content: '\f054';
+      position: absolute;
+      top: -0px;
+      left: -30px; //TODO(mb): make this interchangable
+      z-index: 99;
+      height: 66px;
+      width: 27px;
+      padding-top: 26px;
+      padding-left: 4px;
+      background: #fff;
+      font: normal normal normal 14px/1 FontAwesome;
+      color: #5c3e8f;
+      text-align: center;
+      border: 0px solid #ddd;
+      transition: all 300ms ease-in-out;
+      //box-shadow: 0 3px 7px -2px rgba(0, 0, 0, 0.33) inset;
+
+    }
+  }
+
+  &[chef-flap-position="right"] {
+    right: 0;
+
+    &[chef-flap-state="closed"]:before {
+      content: '\f054';
+    }
+
+    &:hover:before {
+      color: #6d18ff;
+      //transform: scale(1.6);
+    }
+
+    &:before {
+      content: '\f053';
+      position: absolute;
+      top: 0px;
+      right: -27px; //TODO(mb): make this interchangable
+      z-index: 99;
+      height: 62px;
+      width: 27px;
+      padding-top: 26px;
+      padding-left: 4px;
+      background: #fff;
+      font: normal normal normal 14px/1 FontAwesome;
+      color: #5c3e8f;
+      text-align: center;
+      border: 0px solid #ddd;
+      transition: all 300ms ease-in-out;
+      //box-shadow: 0 3px 7px -2px rgba(0, 0, 0, 0.33) inset;
+
+      &:hover {
+        //font-size:30px;
+      }
+
+    }
+
+  }
+
+  // Restructure attributes/elements on flap close
+
+  &[chef-flap-state="closed"] {
+
+    span.switch,
+    .search-btn {
+      display: none;
+      @extend .transition1;
+    }
+
+    span.unit-chooser-title,
+    div.address {
+      visibility: hidden !important;
+      border: none;
+    }
+
+    .address span {
+      display: none;
+    }
+
+      .search-wrapper {
+          display: none;
+      }
+
+    .filter_panel .unit-chooser-num {
+      border: none;
+      left: -16px;
+      top: -2px;
+    }
+
+    .filter_panel li .collapsible-header {
+
+      //border-bottom: none;
+
+      &:first-child {
+        width: 64px;
+        height: 66px;
+        overflow: hidden;
+      }
+
+      & span {
+        margin-left: -20px;
+      }
+
+      &:before {
+        left: -5px;
+        bottom: 26px;
+      }
+    }
+
+    #workspaceContainer {
+      //width: calc(100% - 11px);
+      //padding-right: 11px;
+    }
+
+    .filter_panel {
+      width: 88px;
+    }
+
+  }
+
+  &[chef-flap-position="right"][chef-flap-state="closed"] {
+
+    .filter_panel {
+      width: 66px;
+    }
+
+  }
+}

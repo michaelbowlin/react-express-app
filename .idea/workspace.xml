@@ -1,8 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c2accd-68ec-4aac-9bc2-eca68cde0d2c" name="Default" comment="">
+    <list default="true" id="19c2accd-68ec-4aac-9bc2-eca68cde0d2c" name="Default" comment="Added in SCSS from the portal app along with all Gulp build processes.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/compiled-es6/babel/car.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/compiled-es6/traceur/car.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/LICENSE" afterPath="$PROJECT_DIR$/styles/material-rsi/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/README.md" afterPath="$PROJECT_DIR$/styles/material-rsi/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/LICENSE.txt" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/animation.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/bin/materialize.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/bin/materialize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/bin/materialize.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/bin/materialize.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/buttons.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/buttons.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/cards.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/cards.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/carousel.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/character_counter.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/character_counter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/chips.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/chips.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/collapsible.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/collapsible.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/date_picker/picker.date.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/date_picker/picker.date.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/date_picker/picker.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/date_picker/picker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/dropdown.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/dropdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/forms.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/forms.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/global.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/global.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/hammer.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/hammer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/jquery.easing.1.3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/jquery.hammer.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/jquery.hammer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/leanModal.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/leanModal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/materialbox.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/materialbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/parallax.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/parallax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/pushpin.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/pushpin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/scrollFire.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/scrollFire.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/scrollspy.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/scrollspy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/sideNav.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/sideNav.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/slider.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/slider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/tabs.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/tabs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/toasts.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/toasts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/tooltip.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/tooltip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/transitions.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/transitions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/velocity.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/velocity.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/waves.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/waves.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_cards.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_cards.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_carousel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_chips.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_chips.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_collapsible.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_collapsible.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_color.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_color.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_dropdown.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_form.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_form.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_global.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_global.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_grid.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_icons-material-design.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_icons-material-design.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_materialbox.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_materialbox.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_mixins.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_modal.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_modal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_navbar.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_normalize.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_normalize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_prefixer.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_prefixer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_preloader.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_preloader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_roboto.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_roboto.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_sideNav.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_sideNav.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_slider.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_slider.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_table_of_contents.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_table_of_contents.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_tabs.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_tabs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_toast.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_toast.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_tooltip.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_tooltip.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_typography.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_variables.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_waves.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_waves.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.date.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.date.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.time.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.time.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_archive/_header.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_archive/_header.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_body-content-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_body-content-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_client-navigation-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_client-navigation-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_dashbar-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_dashbar-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_dialog-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_dialog-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_filters-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_filters-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_left-navigation-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_left-navigation-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_lightbox-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_lightbox-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_logo-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_logo-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_main-menu-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_main-menu-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_main-menu.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_main-menu.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_mega-menu-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_mega-menu-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_oocss.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_oocss.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_overrides.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_overrides.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_status-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_status-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_top-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_top-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/components/_flap-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/components/_flap-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi1.1/_com-zindex.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi1.1/_com-zindex.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/styles.scss" afterPath="$PROJECT_DIR$/styles/styles.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/vendor/animate-css/_animate-css.scss" afterPath="$PROJECT_DIR$/styles/vendor/animate-css/_animate-css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.ejs" afterPath="$PROJECT_DIR$/app/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react-express-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,17 +132,39 @@
     <favorites_list name="react-express-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.85832185">
+    <splitter split-orientation="vertical" split-proportion="0.76371783">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.38915375">
           <split-first>
             <leaf>
-              <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+              <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/index.ejs">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-                      <folding />
+                    <state vertical-scroll-proportion="0.35560346">
+                      <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+                      <folding>
+                        <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -49,11 +181,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="GroceryListAddItem.jsx" pinned="false" current-in-tab="true">
+              <file leaf-file-name="GroceryListAddItem.jsx" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/components/GroceryListAddItem.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.5760709">
-                      <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
                       <folding />
                     </state>
                   </provider>
@@ -85,11 +217,11 @@
                     <state vertical-scroll-proportion="0.0">
                       <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
                       <folding>
-                        <marker date="1458170234000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
-                        <marker date="1458170234000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
-                        <marker date="1458170234000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
-                        <marker date="1458170234000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
-                        <marker date="1458170234000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
+                        <marker date="1458245664000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
+                        <marker date="1458245664000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
+                        <marker date="1458245664000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
+                        <marker date="1458245664000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
+                        <marker date="1458245664000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
                       </folding>
                     </state>
                   </provider>
@@ -118,7 +250,7 @@
                     <state vertical-scroll-proportion="0.0">
                       <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
                       <folding>
-                        <marker date="1458170435000" expanded="true" signature="823:824" placeholder="[...]" />
+                        <marker date="1458245664000" expanded="true" signature="823:824" placeholder="[...]" />
                       </folding>
                     </state>
                   </provider>
@@ -127,8 +259,8 @@
               <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/package.json">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-14.166667">
-                      <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                    <state vertical-scroll-proportion="-7.5416665">
+                      <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
                       <folding />
                     </state>
                   </provider>
@@ -137,8 +269,8 @@
               <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/gulpfile.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.42097488">
-                      <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+                    <state vertical-scroll-proportion="-0.30737704">
+                      <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
                       <folding />
                     </state>
                   </provider>
@@ -153,7 +285,7 @@
           <file leaf-file-name="main.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/main.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.2808989">
+                <state vertical-scroll-proportion="1.1702127">
                   <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
                   <folding />
                 </state>
@@ -191,19 +323,19 @@
         <option value="$PROJECT_DIR$/.tmp/styles.css" />
         <option value="$PROJECT_DIR$/app/styles.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/index.ejs" />
         <option value="$PROJECT_DIR$/app/main.jsx" />
         <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/server/routes/items.js" />
         <option value="$PROJECT_DIR$/npm-debug.log" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/dispatcher.js" />
         <option value="$PROJECT_DIR$/app/components/GroceryItem.jsx" />
         <option value="$PROJECT_DIR$/app/stores/GroceryItemStore.jsx" />
         <option value="$PROJECT_DIR$/app/components/GroceryListAddItem.jsx" />
         <option value="$PROJECT_DIR$/app/es6/car.js" />
         <option value="$PROJECT_DIR$/es6/compiled/traceur/car.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/index.ejs" />
       </list>
     </option>
   </component>
@@ -275,7 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,28 +418,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="react-express-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-express-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-express-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-rsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-rsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-rsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material-rsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-express-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,6 +552,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.tmp" />
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -542,11 +749,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15650406" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24695122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -554,7 +761,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106496274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2682927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2682927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -630,32 +837,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dispatcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/GroceryListAddItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -677,11 +858,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
-            <marker date="1458170234000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -702,7 +883,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <marker date="1458170435000" expanded="true" signature="823:824" placeholder="[...]" />
+            <marker date="1458245664000" expanded="true" signature="823:824" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -719,7 +900,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,11 +950,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458170234000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -760,7 +963,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,11 +1013,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1458170234000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -808,7 +1033,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +1113,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,14 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/dispatcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -949,14 +1210,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,11 +1226,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <marker date="1458170234000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
-            <marker date="1458170234000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="520:1680" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="571:1270" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="741:1247" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1287:1520" placeholder="&lt;xml/&gt;" />
+            <marker date="1458245664000" expanded="true" signature="1537:1661" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -995,7 +1248,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2808989">
+        <state vertical-scroll-proportion="1.1702127">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
@@ -1009,20 +1262,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.166667">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/stores/GroceryItemStore.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <marker date="1458170435000" expanded="true" signature="823:824" placeholder="[...]" />
+            <marker date="1458245664000" expanded="true" signature="823:824" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -1035,19 +1280,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5416665">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/vendor/animate-css/_animate-css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3095685">
+          <caret line="5" column="433" selection-start-line="5" selection-start-column="433" selection-end-line="5" selection-end-column="433" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/GroceryListAddItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5760709">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/material-rsi/sass/rsi/_oocss.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.137255">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/material-rsi/sass/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.137255">
+          <caret line="464" column="16" selection-start-line="464" selection-start-column="8" selection-end-line="464" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/material-rsi/sass/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2662722">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42097488">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state vertical-scroll-proportion="-0.30737704">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35560346">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#span#1;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,117 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c2accd-68ec-4aac-9bc2-eca68cde0d2c" name="Default" comment="Added in SCSS from the portal app along with all Gulp build processes.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/compiled-es6/babel/car.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/compiled-es6/traceur/car.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/LICENSE" afterPath="$PROJECT_DIR$/styles/material-rsi/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/README.md" afterPath="$PROJECT_DIR$/styles/material-rsi/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/LICENSE.txt" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/material-design-icons/Material-Design-Icons.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Bold.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Light.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Medium.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/font/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/styles/material-rsi/font/roboto/Roboto-Thin.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/animation.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/animation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/bin/materialize.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/bin/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/bin/materialize.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/bin/materialize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/buttons.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/buttons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/cards.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/cards.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/carousel.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/character_counter.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/character_counter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/chips.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/chips.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/collapsible.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/collapsible.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/date_picker/picker.date.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/date_picker/picker.date.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/date_picker/picker.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/date_picker/picker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/dropdown.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/forms.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/forms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/global.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/global.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/hammer.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/hammer.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/jquery.easing.1.3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/jquery.hammer.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/jquery.hammer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/leanModal.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/leanModal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/materialbox.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/materialbox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/parallax.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/parallax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/pushpin.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/pushpin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/scrollFire.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/scrollFire.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/scrollspy.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/sideNav.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/sideNav.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/slider.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/slider.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/tabs.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/tabs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/toasts.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/toasts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/tooltip.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/transitions.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/transitions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/velocity.min.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/velocity.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/js/waves.js" afterPath="$PROJECT_DIR$/styles/material-rsi/js/waves.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_cards.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_carousel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_carousel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_chips.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_chips.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_collapsible.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_collapsible.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_color.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_color.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_dropdown.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_dropdown.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_form.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_form.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_global.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_global.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_grid.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_icons-material-design.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_icons-material-design.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_materialbox.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_materialbox.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_mixins.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_modal.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_modal.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_navbar.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_normalize.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_normalize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_prefixer.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_prefixer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_preloader.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_preloader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_roboto.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_roboto.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_sideNav.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_sideNav.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_slider.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_slider.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_table_of_contents.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_table_of_contents.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_tabs.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_tabs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_toast.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_toast.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_tooltip.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_tooltip.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_typography.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_variables.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/_waves.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/_waves.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.date.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.date.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/components/date_picker/_default.time.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/components/date_picker/_default.time.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_archive/_header.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_archive/_header.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_body-content-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_body-content-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_client-navigation-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_client-navigation-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_dashbar-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_dashbar-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_dialog-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_dialog-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_filters-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_filters-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_left-navigation-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_left-navigation-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_lightbox-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_lightbox-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_logo-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_logo-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_main-menu-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_main-menu-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_main-menu.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_main-menu.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_mega-menu-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_mega-menu-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_oocss.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_oocss.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_overrides.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_overrides.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_status-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_status-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/_top-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/_top-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi/components/_flap-panel.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi/components/_flap-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/material-rsi/sass/rsi1.1/_com-zindex.scss" afterPath="$PROJECT_DIR$/styles/material-rsi/sass/rsi1.1/_com-zindex.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/styles.scss" afterPath="$PROJECT_DIR$/styles/styles.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/vendor/animate-css/_animate-css.scss" afterPath="$PROJECT_DIR$/styles/vendor/animate-css/_animate-css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.ejs" afterPath="$PROJECT_DIR$/app/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    <list default="true" id="19c2accd-68ec-4aac-9bc2-eca68cde0d2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react-express-app.iws" />
@@ -140,7 +30,7 @@
               <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/index.ejs">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.35560346">
+                    <state vertical-scroll-proportion="0.4376658">
                       <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
                       <folding>
                         <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -269,7 +159,7 @@
               <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/gulpfile.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-0.30737704">
+                    <state vertical-scroll-proportion="-0.37406483">
                       <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
                       <folding />
                     </state>
@@ -285,7 +175,7 @@
           <file leaf-file-name="main.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/main.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.1702127">
+                <state vertical-scroll-proportion="1.4473684">
                   <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
                   <folding />
                 </state>
@@ -352,9 +242,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -744,24 +633,30 @@
       <option name="project" value="LOCAL" />
       <updated>1458244702766</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added in SCSS from the portal app along with all Gulp build processes.">
+      <created>1458248468143</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1458248468143</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24695122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24626866" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106496274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18955651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2682927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17661692" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -830,7 +725,8 @@
     <MESSAGE value="Added additional inputs that are loading to the view" />
     <MESSAGE value="Added: gulp-babel, gulp-traceur, gulp-typescript, gulp-plumber, gulp-concat, gulp-uglify (http://weblogs.asp.net/dwahlin/getting-started-with-es6-%E2%80%93-transpiling-es6-to-es5)" />
     <MESSAGE value="Finished set up for tracuer and babel feeding into a dist folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished set up for tracuer and babel feeding into a dist folder" />
+    <MESSAGE value="Added in SCSS from the portal app along with all Gulp build processes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added in SCSS from the portal app along with all Gulp build processes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1248,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1702127">
+        <state vertical-scroll-proportion="1.4473684">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
@@ -1346,7 +1242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30737704">
+        <state vertical-scroll-proportion="-0.37406483">
           <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
           <folding />
         </state>
@@ -1354,7 +1250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35560346">
+        <state vertical-scroll-proportion="0.4376658">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />

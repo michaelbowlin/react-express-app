@@ -5,9 +5,251 @@
     <title>React/Express/Mongo -- Grocery App</title>
     <link rel="stylesheet" href="/normalize.css"/>
     <link rel="stylesheet" href="/skeleton.css"/>
-    <link rel="stylesheet" href="/styles.css"/>
+    <!--<link rel="stylesheet" href="/styles.css"/>-->
+    <link rel="stylesheet" href="/styles/styles.css"/>
+    <style>
+        body {
+            overflow: auto !important;
+        }
+    </style>
 </head>
 <body>
+    <nav class="lighten-1" role="navigation">
+        <div class="nav-wrapper">
+            <div class="row">
+                <div class="top-panel-head">
+                    <div class="col s12 padding-none">
+
+                        <div class="row">
+                            <div class="col s4 logo-panel padding-none">
+                                <a class="undefined" href="#">
+                                    <img src="/app/dist/img/logo-ph-violet.png" alt="RSI Logo">
+                                </a>
+                            </div>
+
+                            <div class="col s12 padding-none">
+                                <div class="row">
+                                    <div class="status-panel col s16">
+                                        <ul style="cursor: pointer;" class="items">
+                                            <li status="submitted">
+                                                <p>PAYROLL</p>
+                                                                        <span class="rsi-tooltip">
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Sent:</strong></span><span
+                                                                                    role="sentDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/7/2016</span>
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Due:</strong></span><span
+                                                                                    role="dueDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/13/2016</span>
+                                                                        </span>
+                                            </li>
+                                            <li status="submitted">
+                                                <p>AP</p>
+                                                                        <span class="rsi-tooltip">
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Sent:</strong></span><span
+                                                                                    role="sentDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/7/2016</span>
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Due:</strong></span><span
+                                                                                    role="dueDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/13/2016</span>
+                                                                        </span>
+                                            </li>
+                                            <li status="submitted">
+                                                <p>INVENTORY</p>
+                                                                        <span class="rsi-tooltip">
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Sent:</strong></span><span
+                                                                                    role="sentDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/7/2016</span>
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Due:</strong></span><span
+                                                                                    role="dueDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/13/2016</span>
+                                                                        </span>
+                                            </li>
+                                            <li status="submitted">
+                                                <p>SALES</p>
+                                                                        <span class="rsi-tooltip">
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Sent:</strong></span><span
+                                                                                    role="sentDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/7/2016</span>
+                                                                            <span title="" class="rsi-rsiAdoField"><strong>Due:</strong></span><span
+                                                                                    role="dueDate" title=""
+                                                                                    class="rsi-rsiAdoField">3/13/2016</span>
+                                                                        </span>
+                                            </li>
+                                            <li class="truck-icon-svg">
+                                                <img src="/app/dist/img/icon-truck.png" alt="RSI Shipping Icon">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s16 main-menu-panel padding-none">
+                                        <ul class="waves-color-demo">
+                                            <li><a href="#!"
+                                                   class="dropdown-button waves-effect waves-purple btn bg-white color-violet secondary-content">TOOLS</a>
+                                            </li>
+                                            <li><a href="#/reportcard/home"
+                                                   class="waves-effect waves-purple btn bg-white color-violet secondary-content">REPORT
+                                                    CARD</a></li>
+                                            <li><a href="#/shift/home"
+                                                   class="waves-effect waves-purple btn bg-white color-violet secondary-content">SHIFTS</a>
+                                            </li>
+                                            <li><a href="#/statement/home"
+                                                   class="waves-effect waves-purple btn bg-white color-violet secondary-content">STATEMENTS</a>
+                                            </li>
+                                            <li><a href="http://www.rsiig.com"
+                                                   class="waves-effect waves-purple btn bg-white color-violet secondary-content"
+                                                   target="_blank">RSIIG</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s16">
+                                <div class="dashbar-panel col s16 padding-none">
+                                    <div class="row">
+                                        <div class="col s4">
+                                                                    <span class="welcome-msg color-grey"><i
+                                                                                class="fa fa-gear color-grey-lighten-1"></i>Welcome
+                                                                    <span title="" class="rsi-rsiAdoField"
+                                                                          style="visibility: visible;">MICHAEL</span>
+                                                                    <span title="" class="rsi-rsiAdoField"
+                                                                          style="visibility: visible;">KEY</span>
+                                                                    <span title="" class="rsi-rsiAdoField"
+                                                                          style="visibility: visible;">BOWLIN</span>
+                                                                </span>
+                                        </div>
+
+                                        <div class="col s12 right">
+                                            <ul>
+                                                <li>
+                                                    <span>Alerts</span>
+
+                                                    <div hidden="true" style="display: inline-block; visibility: visible;">
+                                                        <a href="#/support/alerts"><span class="circle">4</span></a>
+                                                    </div>
+
+                                                    <div class="preloader-wrapper xsmall active" style="display: none;">
+                                                        <div class="spinner-layer spinner-violet">
+                                                            <div class="circle-clipper right">
+                                                                <div class="circle circle-thin"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <span>Bank Reconciliation</span>
+
+                                                    <div hidden="true" style="display: inline-block; visibility: visible;">
+                                                        <a href="#/bank/rec"><span class="circle">2</span></a>
+                                                    </div>
+
+                                                    <div class="preloader-wrapper xsmall active" style="display: none;">
+                                                        <div class="spinner-layer spinner-violet">
+                                                            <div class="circle-clipper right">
+                                                                <div class="circle circle-thin"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <span>Support Requests</span>
+
+                                                    <div hidden="true" style="display: inline-block; visibility: visible;">
+                                                        <a href="#/support/active"><span class="circle">2</span></a>
+                                                    </div>
+
+                                                    <div class="preloader-wrapper xsmall active" style="display: none;">
+                                                        <div class="spinner-layer spinner-violet">
+                                                            <div class="circle-clipper right">
+                                                                <div class="circle circle-thin"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                                <li>
+                                                    <span>Upcoming Taxes </span>
+
+                                                    <div hidden="true" style="display: inline-block; visibility: visible;">
+                                                        <a href="#/financial/taxes"><span class="circle">4</span></a>
+                                                    </div>
+                                                    <div class="preloader-wrapper xsmall active" style="display: none;">
+                                                        <div class="spinner-layer spinner-violet">
+                                                            <div class="circle-clipper right">
+                                                                <div class="circle circle-thin"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4 padding-none">
+                        <div class="user-wrap">
+                            <div class="profile">
+                                                  <span class="user-info" style="visibility: visible;">
+            <span class="card">
+                <span class="card-content animated fadeIn visible">
+                    <span class="title-block move-title activatorrr rsi-rsiAdoField animated lightSpeedIn visible" title=""
+                          style="visibility: visible;">DOC'S MARINA GRILL #4068</span>
+                    <span class="address-small activator animated fadeInUp visible">
+                            <span class="rsi-rsiAdoField animated fadeInUp visible" title="" style="visibility: visible;">403 MADISON AVE SOUTH</span>
+                            <span class="rsi-rsiAdoField animated fadeInUp visible" title=""
+                                  style="visibility: visible;"></span>
+                            <span class="city rsi-rsiAdoField animated fadeInUp visible" title=""
+                                  style="visibility: visible;">BAINBRIDGE ISLAND</span>
+                            <span class="state animated fadeInUp visible" title="WASHINGTON"
+                                  style="visibility: visible;">WA</span>
+                            <span class="zip rsi-rsiAdoField animated fadeInUp visible" title=""
+                                  style="visibility: visible;">98110</span>
+                    </span>
+
+                    <i class="fa-icon-marker-big fa fa-map-marker animated rotateInUpLeft visible"><span
+                                class="white-block"></span></i>
+                    <i class="icon-map move-map fa fa-map-o animated"></i>
+                </span>
+
+            </span>
+
+        </span>
+                                <center>
+                                    <label style="display: none;">Please select a unit.</label>
+                                    <label hidden="true" style="display: none;">Multiple units selected.</label>
+                                </center>
+                            </div>
+                            <div class="cnp-icons">
+                                <ul class="tools pull-left padding-none">
+                                    <li data-toggle="tooltip" title="Log Out" class="toggle-lightbox">
+                                        <a href="#/auth/logOut"><i class="fa fa-sign-out"></i></a>
+                                    </li>
+                                    <li data-toggle="tooltip" title="Manage Users">
+                                        <a href="#/auth/home" class="toggle-lightbox"><i class="fa fa-users"></i></a>
+                                    </li>
+                                    <li data-toggle="tooltip" title="Edit Profile">
+                                        <a href="#" class="toggle-lightbox"><i class="fa fa-gear"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div id="app"></div>
     </div>

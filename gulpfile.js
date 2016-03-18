@@ -75,8 +75,85 @@ gulp.task('watch', function() {
     gulp.watch([es6Path], ['traceur', 'babel']);
 });
 
+
+
+////// TODO: Below is from portal app NEED to merge with above code
+// TODO: plumber,autoprefixer(more browsers),
+
+// Lint Tasks
+// -------------------------
+
+gulp.task('lint', function () {
+    return gulp.src('js/*.js')
+        .pipe(jshint())
+        .pipe(jshint.reporter('default'));
+});
+
+// LiveReload
+// -----------------------
+gulp.task('webserver', function () {
+    connect.server({
+        livereload: true,
+    });
+});
+
+// Compile Sass
+// ------------------------
+
+gulp.task('styles', function () {
+    return sass('./styles/styles.scss')
+        .on('error', sass.logError)
+        .pipe(postcss([autoprefixer]))
+        .pipe(gulp.dest('./.tmp/styles'))
+        .pipe(connect.reload());
+});
+
+
+// POSTcss (autoprefixer, cssnano - minification)
+// -----------------------
+
+gulp.task('styles-build', function () {
+    return gulp.src('./dist/styles/*.css')
+        .pipe(postcss([autoprefixer]))
+        .pipe(cssnano())
+        .pipe(rename("styles.min.css"))
+        .pipe(gulp.dest('./dist/styles'));
+});
+
+// Concatenate & Minify JS
+// -----------------------
+
+gulp.task('scripts', function () {
+    return gulp.src(['./styles/material-rsi/js/*.js']) // TODO: Should Concatenate & Minify JS
+        .pipe(concat('material.js'))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(rename('material.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
+});
+
+// Watch Files for Changes
+// -----------------------
+gulp.task('watch', function () {
+    gulp.watch('js/*.js', ['lint', 'scripts']); // TODO: Wireup JS Watcher
+    gulp.watch([
+        './styles/*.scss',
+        './styles/**/*.scss',
+        './**/*.html'
+    ], ['styles']);
+});
+
+// Default Task
+// -----------------------
+
+// gulp.task('dev', ['lint', 'styles', 'scripts', 'watch', 'webserver']);
+// gulp.task('build', ['styles-build']);
+
+
+
+
 // Dependent upon our live-server and bundle task
-gulp.task('serve', ['bundle', 'live-server','traceur', 'babel', 'watch'], function () {
+gulp.task('serve', ['bundle', 'live-server','traceur', 'babel', 'watch','lint', 'styles', 'scripts', 'watch', 'webserver'], function () {
     browserSync.init(null, { // null means server already going
         proxy: "http://localhost:7777",
         port: 9001
